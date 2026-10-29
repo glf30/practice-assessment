@@ -1,5 +1,3 @@
-# practice-assessment
-
 # Practice Assessment
 
 * Please include the correct number of parameters in each function!
