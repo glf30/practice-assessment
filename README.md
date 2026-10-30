@@ -28,7 +28,7 @@ Write a function called `sumOfOdds` that takes in two numbers and returns the su
 
 You can assume the second number will always be greater than the first and that the two numbers will not be the same.
 
-**Test Cases**
+**Examples**
 ```js
 sumOfOdds(1, 5) // 9
 sumOfOdds(4, 10) // 21
@@ -41,7 +41,7 @@ Write a function called `arraySubtract` that takes in two arrays of numbers and 
 
 You can assume both arrays will have the same length.
 
-**Test Cases**
+**Examples**
 ```js
 arraySubtract([7, 9], [2, 6]) // [5, 3]
 arraySubtract([10, 20, 30], [1, 5, 10]) // [9, 15, 20]
@@ -54,7 +54,7 @@ Write a function called `surroundArray` that takes in three parameters in this o
 
 Add the first string to the beginning of the array and the second string to the end of the array. Return the modified array.
 
-**Test Cases**
+**Examples**
 ```js
 surroundArray([1, 2, 3], "start", "end") // ["start", 1, 2, 3, "end"]
 surroundArray(["apple", "banana"], "fruit", "basket") // ["fruit", "apple", "banana", "basket"]
@@ -69,7 +69,7 @@ If the array is empty, return an empty string (`''`).
 
 You can assume no two strings in the array will have the same length.
 
-**Test Cases**
+**Examples**
 ```js
 longestString(["cat", "elephant", "dog"]) // "elephant"
 longestString(["a", "abcd", "ab"]) // "abcd"
@@ -84,7 +84,7 @@ If a letter in the original string is uppercase, the corresponding letter in the
 
 **Do not use `replaceAll()` or similar string methods.** If you are unsure what this means, ask before using a string method. `toUpperCase()` and `toLowerCase()` should be all you need, if anything.
 
-**Test Cases**
+**Examples**
 ```js
 sToR("ssRR") // "rrSS"
 sToR("Roses") // "Soser"
@@ -95,7 +95,7 @@ sToR("HELLO") // "HELLO"
 
 Write a function called `divisibleBy4And7` that takes in a number and returns `true` if it is divisible by both 4 and 7. Otherwise, return `false`.
 
-**Test Cases**
+**Examples**
 ```js
 divisibleBy4And7(28) // true
 divisibleBy4And7(8) // false
@@ -106,7 +106,7 @@ divisibleBy4And7(49) // false
 
 Write a function called `exclamationAndQuestion` that takes in a string and returns `true` if it contains both an exclamation point (`!`) and a question mark (`?`). Otherwise, return `false`.
 
-**Test Cases**
+**Examples**
 ```js
 exclamationAndQuestion("Really?!") // true
 exclamationAndQuestion("Hello!") // false
@@ -122,7 +122,7 @@ Write a function called `countAB` that takes in a string and returns an array of
 
 Return the two counts separately; do not add them together.
 
-**Test Cases**
+**Examples**
 ```js
 countAB("ABBA") // [2, 2]
 countAB("aAbBc") // [2, 2]
@@ -135,7 +135,7 @@ Write a function called `createCharacter` that takes in three parameters in this
 
 Create and return an object containing these three properties.
 
-**Test Cases**
+**Examples**
 ```js
 createCharacter("Noah", 10, 5) // { name: "Noah", atk: 10, def: 5 }
 createCharacter("Mio", 15, 3) // { name: "Mio", atk: 15, def: 3 }
@@ -151,7 +151,7 @@ For each character, add the following properties:
 
 Finally, increase the `atk` of the first character by half the `atk` of the second character.
 
-**Test Cases**
+**Examples**
 ```js
 const character1 = { name: "Noah", atk: 10, def: 5 };
 const character2 = { name: "Mio", atk: 8, def: 3 };
