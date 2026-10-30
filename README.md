@@ -4,7 +4,6 @@
 * Make sure every function that is supposed to return something returns something
 * You can console.log() the functions with test input to test your functions after writing them
 * Read each question carefully
-* You are NOT forking this project.  Just a git clone will suffice!  Please submit your main.js file to populi
 * Good luck!
 
 ## Methods you might need
